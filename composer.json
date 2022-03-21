@@ -27,8 +27,8 @@
         "pear-horde/horde_managesieve": "1.*"
     },
     "autoload": {
-        "psr-0": {
-            "Horde_ManageSieve": "lib/"
+        "psr-4": {
+            "Horde\\": "lib/Horde"
         }
     }
 }
