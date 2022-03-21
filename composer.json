@@ -1,5 +1,5 @@
 {
-    "name": "horde/managesieve",
+    "name": "egroupware/managesieve",
     "description": "ManageSieve client library",
     "type": "library",
     "homepage": "https://www.horde.org",
@@ -11,26 +11,20 @@
             "role": "lead"
         }
     ],
-    "version": "1.0.4",
+    "version": "1.1.0",
     "time": "2021-02-17",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.4",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Socket_Client": "^2",
-        "pear-pear.horde.org/Horde_Util": "^2"
+        "php": "^7 || ^8",
+        "pear-pear.horde.org/horde_exception": "^2",
+        "pear-pear.horde.org/horde_socket_client": "^2",
+        "pear-pear.horde.org/horde_util": "^2"
     },
     "suggest": {
-        "pear-pear.php.net/Auth_SASL": "^1"
+        "pear-pear.php.net/auth_sasl": "^1"
     },
     "replace": {
-        "pear-pear.horde.org/Horde_ManageSieve": "1.*",
-        "pear-horde/Horde_ManageSieve": "1.*"
+        "pear-pear.horde.org/horde_managesieve": "1.*",
+        "pear-horde/horde_managesieve": "1.*"
     },
     "autoload": {
         "psr-0": {
